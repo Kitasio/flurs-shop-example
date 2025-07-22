@@ -1,7 +1,13 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  images: {
+    remotePatterns: [
+      new URL('https://btcpay.flurs.art/**'),
+      new URL('https://flurs-shop.fly.storage.tigris.dev/**'),
+      new URL('https://flurs.fly.storage.tigris.dev/**'),
+    ],
+  },
 };
 
 export default nextConfig;
