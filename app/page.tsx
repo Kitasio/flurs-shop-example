@@ -19,25 +19,25 @@ export default function Home() {
     {
       id: "1",
       formats: { data: [{ name: "A3", price: 20 }] },
-      images: { data: ["https://flurs.fly.storage.tigris.dev/the_hanged_man.webp"] },
+      images: { data: ["/the_hanged_man.webp"] },
       name: "The hanged man",
     },
     {
       id: "2",
       formats: { data: [{ name: "A3", price: 20 }] },
-      images: { data: ["https://flurs.fly.storage.tigris.dev/teeth.webp"] },
+      images: { data: ["/teeth.webp"] },
       name: "Teeth",
     },
     {
       id: "3",
       formats: { data: [{ name: "A3", price: 20 }] },
-      images: { data: ["https://flurs.fly.storage.tigris.dev/party.webp"] },
+      images: { data: ["/party.webp"] },
       name: "Party",
     },
     {
       id: "4",
       formats: { data: [{ name: "A3", price: 20 }] },
-      images: { data: ["https://flurs.fly.storage.tigris.dev/among_the_green.webp"] },
+      images: { data: ["/among_the_green.webp"] },
       name: "Among the green",
     },
   ];
